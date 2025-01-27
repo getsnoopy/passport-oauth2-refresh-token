@@ -1,0 +1,48 @@
+{
+	"name": "passport-oauth2-refresh-token",
+	"version": "0.1.0",
+	"description": "OAuth 2.0 refresh token authentication strategy for Passport.",
+	"keywords": [
+		"passport",
+		"oauth",
+		"oauth2",
+		"authn",
+		"authentication",
+		"authz",
+		"authorization",
+		"api",
+		"refresh",
+		"token"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/getsnoopy/passport-oauth2-refresh-token.git"
+	},
+	"bugs": {
+		"url": "http://github.com/getsnoopy/passport-oauth2-refresh-token/issues"
+	},
+	"author": {
+		"name": "getsnoopy",
+		"email": "youcangetsnoopy+github@gmail.com"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://www.opensource.org/licenses/MIT"
+		}
+	],
+	"main": "./lib/passport-oauth2-refresh-token",
+	"dependencies": {
+		"pkginfo": "0.2.x",
+		"passport": "~0.7.0"
+	},
+	"devDependencies": {
+		"vows": "0.8.x"
+	},
+	"scripts": {
+		"test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
+	},
+	"engines": {
+		"node": ">= 0.4.0"
+	}
+}
