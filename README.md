@@ -78,9 +78,9 @@ $ make test
 
 ## Credits
 
-	- [Jared Hanson](http://github.com/jaredhanson) (Client Password implementation)
-	- [Tim Shadel](http://github.com/timshadel) (Public Client implementation)
-	- [getsnoopy](http://github.com/getsnoopy)
+- [Jared Hanson](http://github.com/jaredhanson) (Client Password implementation)
+- [Tim Shadel](http://github.com/timshadel) (Public Client implementation)
+- [getsnoopy](http://github.com/getsnoopy)
 
 ## License
 
